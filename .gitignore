@@ -1,0 +1,10 @@
+# Ignoruj tylko ten jeden duży plik danych
+_ALL_FLIGHTS_30m.csv
+
+# Pliki tymczasowe
+*.ipynb_checkpoints/
+__pycache__/
+
+# Dane lokalne / środowiskowe
+.env
+.DS_Store
