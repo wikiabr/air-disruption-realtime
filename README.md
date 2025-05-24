@@ -57,49 +57,59 @@ W terminalu:
 python Producer.py
 `````
 
-⚠️UWAGA!
+---
 
-Plik _ALL_FLIGHTS_30m.csc nie jest dołączony do repozytorium, jest ignorowany przez .gitignore
+## ⚠️ UWAGA!
 
-Upewnij się, że podłączasz się pod odpowiedni port
+- Plik `_ALL_FLIGHTS_30m.csv` nie jest dołączony do repozytorium – jest ignorowany przez `.gitignore`.
+- Upewnij się, że podłączasz się pod odpowiedni port (Kafka: `9092`, PostgreSQL: `5432`).
+- Sprawdź, czy istnieje topic `air-data` w Twoim środowisku (jeśli nie – producer go utworzy).
+- Zobacz, czy `Producer.py` wskazuje na istniejący plik `.csv` w katalogu `data/`.
 
-Sprawdź, czy istnieje topic air-data w twoim środowisku
+---
 
-Zobacz, czy podpięty jest odpowiedni plik w Producer.py
+## 🔐 Dane dostępowe do PostgreSQL
 
-🔐 Dane dostępowe do PostgreSQL
-Parametr	Wartość
-Host	localhost
-Port	5432
-Baza	air_data
-Użytkownik	user
-Hasło	password
+| Parametr     | Wartość     |
+|--------------|-------------|
+| Host         | `localhost` |
+| Port         | `5432`      |
+| Baza danych  | `air_data`  |
+| Użytkownik   | `user`      |
+| Hasło        | `password`  |
 
-🌐 Interfejs webowy pgAdmin
-Dostępny pod adresem:
-👉 http://localhost:8080
+---
 
-Login: admin@admin.com
-Hasło: admin
+## 🌐 Interfejs webowy pgAdmin
 
-Po zalogowaniu się do pgAdmin:
-Kliknij "Add New Server"
+Dostępny pod adresem: 👉 [http://localhost:8080](http://localhost:8080)
 
-W zakładce Connection użyj:
-Host name: postgres
-Username: user
-Password: password
+**Dane logowania:**
+- **Login:** `admin@admin.com`
+- **Hasło:** `admin`
 
-📊 Power BI jako warstwa wizualizacyjna
-System generuje dane w bazie PostgreSQL (tabela cancellations), które mogą być załadowane do Power BI jako źródło danych.
+**Po zalogowaniu się:**
+1. Kliknij **"Add New Server"**
+2. W zakładce **Connection** wpisz:
+   - **Host name:** `postgres`
+   - **Username:** `user`
+   - **Password:** `password`
 
-Jak dodać w Power BI:
-Wybierz Pobierz dane → Baza danych → PostgreSQL
+---
 
-Wypełnij:
-Serwer: localhost
-Baza danych: air_data
-Login: user
-Hasło: password
+## 📊 Power BI jako warstwa wizualizacyjna
 
-Wybierz tabelę public.cancellations
+System generuje dane w bazie PostgreSQL (`air_data`, tabela `cancellations`), które mogą być załadowane do Power BI jako źródło danych.
+
+### Jak połączyć Power BI z bazą:
+1. Wybierz: **Pobierz dane → Baza danych → PostgreSQL**
+2. Wypełnij:
+   - **Serwer:** `localhost`
+   - **Baza danych:** `air_data`
+   - **Login:** `user`
+   - **Hasło:** `password`
+3. Wybierz tabelę: `public.cancellations`
+
+> 💡 Jeśli wystąpi błąd SSL, w ustawieniach zaawansowanych połączenia dodaj `?sslmode=disable`.
+
+---
