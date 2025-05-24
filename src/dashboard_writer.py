@@ -2,7 +2,7 @@ from kafka import KafkaConsumer
 import json
 from collections import defaultdict, Counter
 
-SERVER = "kafka:9092"
+SERVER = "localhost:9092"
 TOPIC = "air-data"
 
 # Inicjalizacja danych
@@ -44,7 +44,7 @@ def write_dashboard():
         }
     }
 
-    with open("dashboard_data.json", "w", encoding="utf-8") as f:
+    with open("outputs/dashboard_data.json", "w", encoding="utf-8") as f:
         json.dump(dashboard_data, f, indent=2, ensure_ascii=False)
 
     print("📊 dashboard_data.json zaktualizowany.")
