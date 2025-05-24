@@ -1,0 +1,257 @@
+{
+  "cancelled_flights": [
+    {
+      "flight_number": "327",
+      "origin": "DEN",
+      "destination": "MCO",
+      "date": "2021-08-02",
+      "reason": "D",
+      "reason_description": "problemy bezpieczeństwa"
+    },
+    {
+      "flight_number": "335",
+      "origin": "DEN",
+      "destination": "IAD",
+      "date": "2021-08-02",
+      "reason": "C",
+      "reason_description": "problemy w ruchu lotniczym"
+    },
+    {
+      "flight_number": "327",
+      "origin": "DEN",
+      "destination": "MCO",
+      "date": "2021-08-02",
+      "reason": "D",
+      "reason_description": "problemy bezpieczeństwa"
+    },
+    {
+      "flight_number": "335",
+      "origin": "DEN",
+      "destination": "IAD",
+      "date": "2021-08-02",
+      "reason": "C",
+      "reason_description": "problemy w ruchu lotniczym"
+    },
+    {
+      "flight_number": "327",
+      "origin": "DEN",
+      "destination": "MCO",
+      "date": "2021-08-02",
+      "reason": "D",
+      "reason_description": "problemy bezpieczeństwa"
+    },
+    {
+      "flight_number": "335",
+      "origin": "DEN",
+      "destination": "IAD",
+      "date": "2021-08-02",
+      "reason": "C",
+      "reason_description": "problemy w ruchu lotniczym"
+    },
+    {
+      "flight_number": "327",
+      "origin": "DEN",
+      "destination": "MCO",
+      "date": "2021-08-02",
+      "reason": "D",
+      "reason_description": "problemy bezpieczeństwa"
+    },
+    {
+      "flight_number": "335",
+      "origin": "DEN",
+      "destination": "IAD",
+      "date": "2021-08-02",
+      "reason": "C",
+      "reason_description": "problemy w ruchu lotniczym"
+    },
+    {
+      "flight_number": "335",
+      "origin": "DEN",
+      "destination": "IAD",
+      "date": "2021-08-02",
+      "reason": "C",
+      "reason_description": "problemy w ruchu lotniczym"
+    },
+    {
+      "flight_number": "327",
+      "origin": "DEN",
+      "destination": "MCO",
+      "date": "2021-08-02",
+      "reason": "D",
+      "reason_description": "problemy bezpieczeństwa"
+    },
+    {
+      "flight_number": "335",
+      "origin": "DEN",
+      "destination": "IAD",
+      "date": "2021-08-02",
+      "reason": "C",
+      "reason_description": "problemy w ruchu lotniczym"
+    },
+    {
+      "flight_number": "327",
+      "origin": "DEN",
+      "destination": "MCO",
+      "date": "2021-08-02",
+      "reason": "D",
+      "reason_description": "problemy bezpieczeństwa"
+    },
+    {
+      "flight_number": "335",
+      "origin": "DEN",
+      "destination": "IAD",
+      "date": "2021-08-02",
+      "reason": "C",
+      "reason_description": "problemy w ruchu lotniczym"
+    },
+    {
+      "flight_number": "327",
+      "origin": "DEN",
+      "destination": "MCO",
+      "date": "2021-08-02",
+      "reason": "D",
+      "reason_description": "problemy bezpieczeństwa"
+    },
+    {
+      "flight_number": "335",
+      "origin": "DEN",
+      "destination": "IAD",
+      "date": "2021-08-02",
+      "reason": "C",
+      "reason_description": "problemy w ruchu lotniczym"
+    },
+    {
+      "flight_number": "327",
+      "origin": "DEN",
+      "destination": "MCO",
+      "date": "2021-08-02",
+      "reason": "D",
+      "reason_description": "problemy bezpieczeństwa"
+    },
+    {
+      "flight_number": "1505",
+      "origin": "DEN",
+      "destination": "ORD",
+      "date": "2020-11-17",
+      "reason": "C",
+      "reason_description": "problemy w ruchu lotniczym"
+    },
+    {
+      "flight_number": "1497",
+      "origin": "LAS",
+      "destination": "SFO",
+      "date": "2020-11-17",
+      "reason": "A",
+      "reason_description": "decyzja linii lotniczej"
+    },
+    {
+      "flight_number": "1491",
+      "origin": "PDX",
+      "destination": "SFO",
+      "date": "2020-11-17",
+      "reason": "A",
+      "reason_description": "decyzja linii lotniczej"
+    },
+    {
+      "flight_number": "1485",
+      "origin": "DEN",
+      "destination": "EUG",
+      "date": "2020-11-17",
+      "reason": "D",
+      "reason_description": "problemy bezpieczeństwa"
+    },
+    {
+      "flight_number": "1505",
+      "origin": "DEN",
+      "destination": "ORD",
+      "date": "2020-11-17",
+      "reason": "C",
+      "reason_description": "problemy w ruchu lotniczym"
+    },
+    {
+      "flight_number": "1497",
+      "origin": "LAS",
+      "destination": "SFO",
+      "date": "2020-11-17",
+      "reason": "A",
+      "reason_description": "decyzja linii lotniczej"
+    },
+    {
+      "flight_number": "1491",
+      "origin": "PDX",
+      "destination": "SFO",
+      "date": "2020-11-17",
+      "reason": "A",
+      "reason_description": "decyzja linii lotniczej"
+    },
+    {
+      "flight_number": "1485",
+      "origin": "DEN",
+      "destination": "EUG",
+      "date": "2020-11-17",
+      "reason": "D",
+      "reason_description": "problemy bezpieczeństwa"
+    },
+    {
+      "flight_number": "1505",
+      "origin": "DEN",
+      "destination": "ORD",
+      "date": "2020-11-17",
+      "reason": "C",
+      "reason_description": "problemy w ruchu lotniczym"
+    },
+    {
+      "flight_number": "1497",
+      "origin": "LAS",
+      "destination": "SFO",
+      "date": "2020-11-17",
+      "reason": "A",
+      "reason_description": "decyzja linii lotniczej"
+    },
+    {
+      "flight_number": "1491",
+      "origin": "PDX",
+      "destination": "SFO",
+      "date": "2020-11-17",
+      "reason": "A",
+      "reason_description": "decyzja linii lotniczej"
+    },
+    {
+      "flight_number": "1485",
+      "origin": "DEN",
+      "destination": "EUG",
+      "date": "2020-11-17",
+      "reason": "D",
+      "reason_description": "problemy bezpieczeństwa"
+    },
+    {
+      "flight_number": "1505",
+      "origin": "DEN",
+      "destination": "ORD",
+      "date": "2020-11-17",
+      "reason": "C",
+      "reason_description": "problemy w ruchu lotniczym"
+    },
+    {
+      "flight_number": "1497",
+      "origin": "LAS",
+      "destination": "SFO",
+      "date": "2020-11-17",
+      "reason": "A",
+      "reason_description": "decyzja linii lotniczej"
+    }
+  ],
+  "stats": {
+    "total_cancelled": 32,
+    "cancelled_by_reason": {
+      "C": 14,
+      "D": 11,
+      "A": 7
+    },
+    "top_origins": {
+      "DEN": 25,
+      "LAS": 4,
+      "PDX": 3
+    }
+  }
+}

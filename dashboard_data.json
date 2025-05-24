@@ -1,0 +1,97 @@
+{
+  "cancelled_flights": [
+    {
+      "flight_number": "1491",
+      "origin": "PDX",
+      "destination": "SFO",
+      "date": "2020-11-17",
+      "reason": "A",
+      "reason_description": "decyzja linii lotniczej"
+    },
+    {
+      "flight_number": "1505",
+      "origin": "DEN",
+      "destination": "ORD",
+      "date": "2020-11-17",
+      "reason": "C",
+      "reason_description": "problemy w ruchu lotniczym"
+    },
+    {
+      "flight_number": "1497",
+      "origin": "LAS",
+      "destination": "SFO",
+      "date": "2020-11-17",
+      "reason": "A",
+      "reason_description": "decyzja linii lotniczej"
+    },
+    {
+      "flight_number": "1491",
+      "origin": "PDX",
+      "destination": "SFO",
+      "date": "2020-11-17",
+      "reason": "A",
+      "reason_description": "decyzja linii lotniczej"
+    },
+    {
+      "flight_number": "1485",
+      "origin": "DEN",
+      "destination": "EUG",
+      "date": "2020-11-17",
+      "reason": "D",
+      "reason_description": "problemy bezpieczeństwa"
+    },
+    {
+      "flight_number": "1505",
+      "origin": "DEN",
+      "destination": "ORD",
+      "date": "2020-11-17",
+      "reason": "C",
+      "reason_description": "problemy w ruchu lotniczym"
+    },
+    {
+      "flight_number": "1497",
+      "origin": "LAS",
+      "destination": "SFO",
+      "date": "2020-11-17",
+      "reason": "A",
+      "reason_description": "decyzja linii lotniczej"
+    },
+    {
+      "flight_number": "1491",
+      "origin": "PDX",
+      "destination": "SFO",
+      "date": "2020-11-17",
+      "reason": "A",
+      "reason_description": "decyzja linii lotniczej"
+    },
+    {
+      "flight_number": "1485",
+      "origin": "DEN",
+      "destination": "EUG",
+      "date": "2020-11-17",
+      "reason": "D",
+      "reason_description": "problemy bezpieczeństwa"
+    },
+    {
+      "flight_number": "1505",
+      "origin": "DEN",
+      "destination": "ORD",
+      "date": "2020-11-17",
+      "reason": "C",
+      "reason_description": "problemy w ruchu lotniczym"
+    }
+  ],
+  "stats": {
+    "total_cancelled": 10,
+    "cancelled_by_reason": {
+      "A": 5,
+      "C": 3,
+      "D": 2
+    },
+    "top_origins": {
+      "DEN": 5,
+      "PDX": 3,
+      "LAS": 2
+    }
+  }
+}
