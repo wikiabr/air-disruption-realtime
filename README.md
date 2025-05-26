@@ -61,7 +61,7 @@ python Producer.py
 
 ## ⚠️ UWAGA!
 
-- Plik `_ALL_FLIGHTS_30m.csv` nie jest dołączony do repozytorium – jest ignorowany przez `.gitignore`.
+- Plik z danymi nie jest zawarty w repozytorium!!!
 - Upewnij się, że podłączasz się pod odpowiedni port (Kafka: `9092`, PostgreSQL: `5432`).
 - Sprawdź, czy istnieje topic `air-data` w Twoim środowisku (jeśli nie – producer go utworzy).
 - Zobacz, czy `Producer.py` wskazuje na istniejący plik `.csv` w katalogu `data/`.
@@ -108,7 +108,7 @@ System generuje dane w bazie PostgreSQL (`air_data`, tabela `cancellations`), kt
    - **Baza danych:** `air_data`
    - **Login:** `user`
    - **Hasło:** `password`
-3. Wybierz tabelę: `public.cancellations`
+3. Wybierz tabele: `public.cancellations` oraz `public.delays`
 
 > 💡 Jeśli wystąpi błąd SSL, w ustawieniach zaawansowanych połączenia dodaj `?sslmode=disable`.
 

@@ -1,0 +1,133 @@
+{
+  "delayed_flights": [
+    {
+      "flight_number": "840",
+      "origin": "LGA",
+      "destination": "PBI",
+      "date": "2019-12-01",
+      "delay_minutes": 128.0,
+      "reason": "DELAY_DUE_CARRIER|DELAY_DUE_LATE_AIRCRAFT",
+      "reason_description": "decyzja linii lotniczej, opóźnienie spowodowane wcześniejszym lotem",
+      "voucher_eligible": "No",
+      "voucher_code": "",
+      "voucher_amount": 0,
+      "compensation_eligible": "No",
+      "compensation_amount": "0$",
+      "message": "Opóźnienie samolotu wynosi 2.13 godziny. Powodem opóźnienia jest: decyzja linii lotniczej, opóźnienie spowodowane wcześniejszym lotem. Z uwagi na rodzaj przyczyny oraz czas opóźnienia, nie przysługuje prawo do rekompensaty.",
+      "delay_reasons_list": [
+        "DELAY_DUE_CARRIER",
+        "DELAY_DUE_LATE_AIRCRAFT"
+      ]
+    },
+    {
+      "flight_number": "835",
+      "origin": "LAX",
+      "destination": "MSY",
+      "date": "2019-12-01",
+      "delay_minutes": 18.0,
+      "reason": "",
+      "reason_description": "Nieznany powód opóźnienia",
+      "voucher_eligible": "No",
+      "voucher_code": "",
+      "voucher_amount": 0,
+      "compensation_eligible": "No",
+      "compensation_amount": "0$",
+      "message": "Opóźnienie samolotu wynosi 0.3 godziny. Powodem opóźnienia jest: Nieznany powód opóźnienia. Z uwagi na rodzaj przyczyny oraz czas opóźnienia, nie przysługuje prawo do rekompensaty.",
+      "delay_reasons_list": []
+    },
+    {
+      "flight_number": "841",
+      "origin": "DTW",
+      "destination": "MSP",
+      "date": "2019-12-01",
+      "delay_minutes": 17.0,
+      "reason": "",
+      "reason_description": "Nieznany powód opóźnienia",
+      "voucher_eligible": "No",
+      "voucher_code": "",
+      "voucher_amount": 0,
+      "compensation_eligible": "No",
+      "compensation_amount": "0$",
+      "message": "Opóźnienie samolotu wynosi 0.28 godziny. Powodem opóźnienia jest: Nieznany powód opóźnienia. Z uwagi na rodzaj przyczyny oraz czas opóźnienia, nie przysługuje prawo do rekompensaty.",
+      "delay_reasons_list": []
+    },
+    {
+      "flight_number": "841",
+      "origin": "DTW",
+      "destination": "MSP",
+      "date": "2019-12-01",
+      "delay_minutes": 17.0,
+      "reason": "",
+      "reason_description": "Nieznany powód opóźnienia",
+      "voucher_eligible": "No",
+      "voucher_code": "",
+      "voucher_amount": 0,
+      "compensation_eligible": "No",
+      "compensation_amount": "0$",
+      "message": "Opóźnienie samolotu wynosi 0.28 godziny. Powodem opóźnienia jest: Nieznany powód opóźnienia. Z uwagi na rodzaj przyczyny oraz czas opóźnienia, nie przysługuje prawo do rekompensaty.",
+      "delay_reasons_list": []
+    },
+    {
+      "flight_number": "838",
+      "origin": "ATL",
+      "destination": "EWR",
+      "date": "2019-12-01",
+      "delay_minutes": 14.0,
+      "reason": "DELAY_DUE_CARRIER|DELAY_DUE_NAS",
+      "reason_description": "decyzja linii lotniczej, problemy w ruchu lotniczym",
+      "voucher_eligible": "No",
+      "voucher_code": "",
+      "voucher_amount": 0,
+      "compensation_eligible": "No",
+      "compensation_amount": "0$",
+      "message": "Opóźnienie samolotu wynosi 0.23 godziny. Powodem opóźnienia jest: decyzja linii lotniczej, problemy w ruchu lotniczym. Z uwagi na rodzaj przyczyny oraz czas opóźnienia, nie przysługuje prawo do rekompensaty.",
+      "delay_reasons_list": [
+        "DELAY_DUE_CARRIER",
+        "DELAY_DUE_NAS"
+      ]
+    },
+    {
+      "flight_number": "833",
+      "origin": "DTW",
+      "destination": "SAN",
+      "date": "2019-12-01",
+      "delay_minutes": 8.0,
+      "reason": "",
+      "reason_description": "Nieznany powód opóźnienia",
+      "voucher_eligible": "No",
+      "voucher_code": "",
+      "voucher_amount": 0,
+      "compensation_eligible": "No",
+      "compensation_amount": "0$",
+      "message": "Opóźnienie samolotu wynosi 0.13 godziny. Powodem opóźnienia jest: Nieznany powód opóźnienia. Z uwagi na rodzaj przyczyny oraz czas opóźnienia, nie przysługuje prawo do rekompensaty.",
+      "delay_reasons_list": []
+    },
+    {
+      "flight_number": "842",
+      "origin": "MSP",
+      "destination": "BDL",
+      "date": "2019-12-01",
+      "delay_minutes": 8.0,
+      "reason": "DELAY_DUE_CARRIER|DELAY_DUE_NAS",
+      "reason_description": "decyzja linii lotniczej, problemy w ruchu lotniczym",
+      "voucher_eligible": "No",
+      "voucher_code": "",
+      "voucher_amount": 0,
+      "compensation_eligible": "No",
+      "compensation_amount": "0$",
+      "message": "Opóźnienie samolotu wynosi 0.13 godziny. Powodem opóźnienia jest: decyzja linii lotniczej, problemy w ruchu lotniczym. Z uwagi na rodzaj przyczyny oraz czas opóźnienia, nie przysługuje prawo do rekompensaty.",
+      "delay_reasons_list": [
+        "DELAY_DUE_CARRIER",
+        "DELAY_DUE_NAS"
+      ]
+    }
+  ],
+  "stats": {
+    "total_delayed": 7,
+    "delayed_by_reason": {
+      "": 4,
+      "DELAY_DUE_CARRIER|DELAY_DUE_NAS": 2,
+      "DELAY_DUE_CARRIER|DELAY_DUE_LATE_AIRCRAFT": 1
+    }
+  }
+}
